@@ -9,6 +9,7 @@ To use it:
 
 - Install [pipenv](https://pipenv.kennethreitz.org/en/latest/)
 - Run: `pipenv shell`
+- Run: `pipenv install`
 
 ## Running unit tests
 
