@@ -4,6 +4,7 @@ def findmostsimilarword(typed_word, option_a, option_b):
 
     return option_a if op_a > op_b else option_b
 
+
 def __calcpossibilities__(typed_word, option):
     grid = [[0] * len(option) for i in range(len(typed_word))]
 
@@ -19,5 +20,5 @@ def __calcpossibilities__(typed_word, option):
             else:
                 grid[x][y] = max((grid[x_aux][y], grid[x][y_aux],))
 
-    #print(grid)
+    # print(grid)
     return grid[grid_len - 1][grid_len - 1]

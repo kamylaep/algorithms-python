@@ -5,7 +5,6 @@ from search.binarysearch import binarysearch
 
 class BinarySearchTest(unittest.TestCase):
 
-
     def test_binary_search(self):
         elements = range(10)
         self.assertEqual(5, binarysearch(5, elements))

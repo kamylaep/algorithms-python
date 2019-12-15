@@ -7,7 +7,7 @@ def recursive(nth):
 
 def dynamic(nth):
     if nth <= 1:
-      return nth
+        return nth
 
     fib_seq = [0] * (nth + 2)
     fib_seq[0] = 0
@@ -21,15 +21,15 @@ def dynamic(nth):
 
 def lasttwo(nth):
     if nth <= 1:
-      return nth
+        return nth
 
     fibonacci = 0
     first_value = 0
     second_value = 1
 
-    for i in range (2, nth + 1):
-      fibonacci = first_value + second_value
-      first_value = second_value
-      second_value = fibonacci
+    for i in range(2, nth + 1):
+        fibonacci = first_value + second_value
+        first_value = second_value
+        second_value = fibonacci
 
-    return fibonacci;
+    return fibonacci

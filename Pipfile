@@ -8,6 +8,8 @@ autopep8 = "*"
 
 [packages]
 nose2 = "*"
+pycodestyle = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
